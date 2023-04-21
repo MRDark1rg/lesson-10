@@ -1,0 +1,87 @@
+/* base classes */
+.flex{
+    display: flex;
+}
+
+
+/* header    */
+.header{
+    padding: 25px 0;
+}
+.container{
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.header-wrapper{
+    justify-content: space-between;
+}
+.nav-li{
+    margin-right: 49px;
+}
+.nav-li:last-child{
+    margin-right: 0;
+}
+.icon{
+    margin-left: 30px;
+    display: none;
+}
+/* section */
+.section{
+    margin-top:75px;
+}
+.box-wrapper{
+    justify-content: space-between;
+}
+.left-box{
+    max-width: 241px;
+    width: 100%;
+}
+.right-box{
+    max-width: 870px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block{
+    max-width: 269px;
+    width: 38%;
+    background-color: red;}
+.photo {
+    max-width: 269px;
+    width: 100%;
+}
+
+.form{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-wrapper{
+    max-width: 400px;
+    width: 100%;
+}
+input{
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid brown;
+    
+}
+input:focus{
+    outline: none;
+}
+.shesvla{
+    margin-top: 50px;
+    width: 100px;
+    background-color: blueviolet;
+    height: 50px;
+    font-size: 19px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}

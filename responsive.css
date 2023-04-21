@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .icon{
+        display: block;
+    }
+    .nav-li:not(.active) {
+        display: none;
+    }
+    .container{
+        width: 90%;
+    }
+}
+@media(max-width: 957px) {
+    .right-box{
+        justify-content: space-around;
+    }
+}
+@media(max-width: 720px) {
+    .block{
+        width: 90%;
+    }
+    .right-box{
+        justify-content: center;
+    }
+    .box-wrapper{
+        flex-wrap: wrap;
+    }
+    .left-box{
+      
+        margin-bottom: 50px;
+
+    }
+}
+@media (max-width: 554px) {
+    .left-box{
+        text-align: center;
+}
+}
